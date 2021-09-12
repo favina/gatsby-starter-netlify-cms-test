@@ -29,7 +29,7 @@ collections:
 
   - name: "pages"
     label: "Pages"
-    preview_path: /pages
+    preview_path: {{filename}}{{extension}}
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
