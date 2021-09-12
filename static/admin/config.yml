@@ -31,6 +31,7 @@ collections:
   - name: "pages"
     label: "Pages"
     show_preview_links: true
+    preview_path: "pages/{{slug}}"
     files:
       - file: "src/pages/index.md"
         preview_path: "/pages"
