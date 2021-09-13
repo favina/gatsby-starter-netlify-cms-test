@@ -14,7 +14,6 @@ public_folder: /img
 collections:
   - name: "blog"
     label: "Blog"
-    preview_path: "blog/{{slug}}"
     folder: "src/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -30,6 +29,7 @@ collections:
 
   - name: "pages"
     label: "Pages"
+    preview_path: "blog/{{slug}}"
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
